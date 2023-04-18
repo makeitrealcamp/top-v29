@@ -1,3 +1,3 @@
 let pizza = "pizza is alright"
-pizza = pizza.replace("alright", "wonderful")
+pizza = pizza.replace("alright", "javascripting verify revising-strings.jswonderful")
 console.log(pizza)
