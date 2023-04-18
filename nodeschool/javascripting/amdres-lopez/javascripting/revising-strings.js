@@ -1,3 +1,3 @@
 const pizza = "pizza is alright";
-pizza.replace("alright", "wondealrfulight");
-console.log(pizza);
+
+console.log(pizza.replace("alright", "wonderful"));
