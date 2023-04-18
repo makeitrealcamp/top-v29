@@ -6,7 +6,7 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 1
+- [Michael Gonzalez](profiles/michael-gonzalez.md)
 - Estudiante 2
 - Estudiante 3
 - ...
