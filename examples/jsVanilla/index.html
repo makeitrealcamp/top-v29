@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="fullName" type="text" placeholder="Enter name" />
+    <button>Guardar</button>
+
+    <ul></ul>
+
+    <script>
+      // JavaScript Vanilla
+
+      // 1. Obtener el elemento input del DOM
+      const input = document.querySelector('input');
+      // 2. Obtener el elemento button del DOM
+      const button = document.querySelector('button');
+      // 3. Obtener el elemento ul del DOM
+      const ul = document.querySelector('ul');
+      // 4. Agregar un evento click al button
+      button.addEventListener('click', function (e) {
+        const li = document.createElement('li');
+        li.textContent = input.value;
+
+        // Agregar el LI dentro del UL
+        ul.appendChild(li);
+
+        // Limpiar el input
+        input.value = '';
+      });
+      // 5. Mostrar el valor del input en el ul
+    </script>
+  </body>
+</html>
