@@ -1,17 +1,21 @@
-# Make It Real - Order summary card
+# Make It Real - Credit Card Form
 
 <img src="./design/desktop-preview.jpg" width="700">
 
 ## Reto
 
-Su desafío es desarrollar este componente de tarjeta de resumen de pedido y lograr que se parezca lo más posible al diseño.
+Su desafío es construir este formulario interactivo de detalles de la tarjeta y lograr que se parezca lo más posible al diseño.
 
 Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
-Tus usuarios deberían poder:
+Sus usuarios deberían poder:
 
+- Complete el formulario
+- Recibir mensajes de error cuando se envía el formulario si:
+   - Cualquier campo de entrada está vacío
+   - El número de tarjeta, la fecha de caducidad o los campos CVC tienen un formato incorrecto
 - Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
-- Ver hover y focus para elementos interactivos
+- Vea los estados de desplazamiento, activo y de enfoque para elementos interactivos en la página
 
 ## Diseño
 
@@ -28,25 +32,26 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primary
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+- Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)
+- Red (input errors): hsl(0, 100%, 66%)
 
 ### Neutral
 
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
+- White: hsl(0, 0%, 100%)
+- Light grayish violet: hsl(270, 3%, 87%)
+- Dark grayish violet: hsl(279, 6%, 55%)
+- Very dark violet: hsl(278, 68%, 11%)
 
 ## Tipografía
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+- Font size: 18px
 
 ### Font
 
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
+- Family: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
+- Weights: 500
 
 ## Construyendo tu proyecto
 

@@ -1,14 +1,14 @@
-# Make It Real - Order summary card
+# Make It Real - Product preview card component
 
 <img src="./design/desktop-preview.jpg" width="700">
 
 ## Reto
 
-Su desafío es desarrollar este componente de tarjeta de resumen de pedido y lograr que se parezca lo más posible al diseño.
+Su desafío es desarrollar este componente de tarjeta de vista previa del producto y lograr que se parezca lo más posible al diseño.
 
 Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
-Tus usuarios deberían poder:
+Sus usuarios deberían poder:
 
 - Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
 - Ver hover y focus para elementos interactivos
@@ -28,25 +28,29 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primary
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
 
 ### Neutral
 
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
 
 ## Tipografía
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+- Font size (paragraph): 14px
 
 ### Font
 
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+
 
 ## Construyendo tu proyecto
 
