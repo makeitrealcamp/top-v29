@@ -1,0 +1,14 @@
+.container {
+  background: #f5f5f2;
+  border: 2px dashed #999;
+  padding: 40px 10px;
+
+  /* Flexbox */
+}
+
+.item {
+  background: #318FC3;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+}
