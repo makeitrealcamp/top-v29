@@ -1,5 +1,11 @@
+:root {
+  --color-primary: #318FC3;
+  --color-secondary: #f5f5f2;
+  --color-tertiary: #999;
+}
+
 .container {
-  background: #f5f5f2;
+  background: var(--color-secondary);
   border: 2px dashed #999;
   padding: 40px 10px;
 
@@ -7,7 +13,7 @@
 }
 
 .item {
-  background: #318FC3;
+  background: var(--color-primary);
   margin: 20px;
   height: 100px;
   width: 100px;
