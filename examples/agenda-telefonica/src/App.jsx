@@ -9,13 +9,17 @@ import './App.css'
 
 
 function App() {
+
+  
   const [contacts, setContacts] = useState(contactList);
+ 
+
 
   return (
     <div>
       <h1>Lista de Contactos</h1>
       <ContactForm />
-      <ContactList />
+      <ContactList contacts={contacts}/>
     </div>
   )
 }

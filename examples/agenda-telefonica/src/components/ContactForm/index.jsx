@@ -4,15 +4,29 @@ import './ContactForm.css';
 
 const ContactForm = () => {
   const [contact, setContact] = useState({});
+ 
 
   const handleSubmit = (event) => {
-    event.preventDefault();
 
-    console.log(contact)
+    event.preventDefault();
+    let datos=event.target;//lee los datos del formulario
+    let mycontact = {
+      name: datos.name.value,
+      phone: datos.phone.value,
+      photo: datos.photo.value
+    };
+
+  
 
     // Clear form
-    setContact({})
+    setContact(mycontact)
   };
+
+  
+  
+  
+  
+
 
   return (
     <div className='container'>
@@ -56,7 +70,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <button type="submit" className="contact-form__button">
+        <button type="submit"  className="contact-form__button">
           Agregar
         </button>
       </form>
