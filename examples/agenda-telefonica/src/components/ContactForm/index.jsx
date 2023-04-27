@@ -2,31 +2,45 @@ import { useState } from 'react';
 
 import './ContactForm.css';
 
-const ContactForm = () => {
+const ContactForm = ({onAddContact}) => {
   const [contact, setContact] = useState({});
- 
 
+  const handleChange=(event)=>{
+
+    const {name,value}=event.target;
+    setContact(
+      {
+        ...contact,
+        [name]: value ,
+
+      })
+
+
+    
+  };
+ 
   const handleSubmit = (event) => {
 
     event.preventDefault();
-    let datos=event.target;//lee los datos del formulario
+
+    const newContact={
+      ...contact,
+      id:Date.now(),
+    }
+    onAddContact(newContact)//agregar contact
+
+
+    //console.log(contact)
+    /*let datos=event.target;//lee los datos del formulario
     let mycontact = {
       name: datos.name.value,
       phone: datos.phone.value,
       photo: datos.photo.value
-    };
+    };*/
 
-  
-
-    // Clear form
-    setContact(mycontact)
+      // Clear form
+    setContact({})
   };
-
-  
-  
-  
-  
-
 
   return (
     <div className='container'>
@@ -42,6 +56,7 @@ const ContactForm = () => {
               name="name"
               placeholder='Enter your name'
               className="contact-form__input"
+              onChange={handleChange}
               required
             />
           </div>
@@ -54,6 +69,7 @@ const ContactForm = () => {
               name="phone"
               placeholder='Enter your phone'
               className="contact-form__input"
+              onChange={handleChange}
               required
             />
           </div>
@@ -66,6 +82,7 @@ const ContactForm = () => {
               name="photo"
               className="contact-form__input"
               placeholder='https://picsum.photos/200'
+              onChange={handleChange}
             />
           </div>
         </div>

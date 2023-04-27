@@ -12,13 +12,25 @@ function App() {
 
   
   const [contacts, setContacts] = useState(contactList);
+
+  const handleAddcontact=(newContact)=>{
+    //debugger
+    setContacts(
+      [
+        ...contacts,
+        newContact
+      ]
+    )
+  }
+
+  
  
 
 
   return (
     <div>
       <h1>Lista de Contactos</h1>
-      <ContactForm />
+      <ContactForm onAddContact={handleAddcontact}/>
       <ContactList contacts={contacts}/>
     </div>
   )
