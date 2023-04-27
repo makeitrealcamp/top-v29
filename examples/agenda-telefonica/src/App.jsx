@@ -11,11 +11,18 @@ import './App.css'
 function App() {
   const [contacts, setContacts] = useState(contactList);
 
+  const handleAddContact = (newContact) => {
+    setContacts([
+      ...contacts,
+      newContact
+    ])
+  }
+
   return (
     <div>
       <h1>Lista de Contactos</h1>
-      <ContactForm />
-      <ContactList />
+      <ContactForm onAddContact={handleAddContact} />
+      <ContactList contacts={contacts} />
     </div>
   )
 }

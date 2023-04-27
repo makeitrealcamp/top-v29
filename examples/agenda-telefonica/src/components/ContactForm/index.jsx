@@ -2,13 +2,26 @@ import { useState } from 'react';
 
 import './ContactForm.css';
 
-const ContactForm = () => {
+const ContactForm = ({ onAddContact }) => {
   const [contact, setContact] = useState({});
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setContact({
+      ...contact,
+      [name]: value,
+    });
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    console.log(contact)
+    const newContact = {
+      ...contact,
+      id: Date.now(),
+    }
+    onAddContact(newContact)
 
     // Clear form
     setContact({})
@@ -29,6 +42,7 @@ const ContactForm = () => {
               placeholder='Enter your name'
               className="contact-form__input"
               required
+              onChange={handleChange}
             />
           </div>
           <div className="contact-form__column">
@@ -41,6 +55,7 @@ const ContactForm = () => {
               placeholder='Enter your phone'
               className="contact-form__input"
               required
+              onChange={handleChange}
             />
           </div>
           <div className="contact-form__column">
@@ -52,6 +67,7 @@ const ContactForm = () => {
               name="photo"
               className="contact-form__input"
               placeholder='https://picsum.photos/200'
+              onChange={handleChange}
             />
           </div>
         </div>

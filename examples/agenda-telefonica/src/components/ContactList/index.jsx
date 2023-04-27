@@ -7,7 +7,11 @@ const ContactList = ({ contacts = [] }) => {
     <div className="contact-list">
       {contacts.map((contact) => (
         <div key={contact.id} className="contact-list__item">
-          <ContactCard />
+          <ContactCard
+            name={contact.name}
+            phone={contact.phone}
+            photo={contact.photo}
+          />
         </div>
       ))}
     </div>
