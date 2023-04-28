@@ -6,7 +6,6 @@ const makersName = [
   'Federico Córdoba',
   'Juan David Peña',
   'Michael Gonzalez',
-  'Stephanie Ariza Luna',
   'Miguel Angel Chaparro Tirado',
   'Carlos Alfredo Mendoza Páez',
 ];
