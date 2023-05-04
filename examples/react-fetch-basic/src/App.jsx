@@ -1,28 +1,20 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+
+import Form from './components/Form'
+import Item from './components/item'
+import Loading from './components/Loading'
 
 import './App.css'
 
 function App() {
   const [users, setUsers] = useState([])
   const [user, setUser] = useState({})
+  const [isLoading, setIsLoading] = useState(false)
 
-  const handleReadAll = async () => {
-    const url = 'https://jsonplaceholder.typicode.com/users'
-    const config = {
-      method: 'GET',
-    }
-
-    try {
-      const response = await fetch(url, config)
-      const data = await response.json()
-      setUsers(data)
-    } catch (error) {
-      console.log(error)
-    }
-  }
 
   const handleReadOne = async () => {
-    const url = 'https://jsonplaceholder.typicode.com/users/2'
+    const random = Math.floor(Math.random() * 10) + 1
+    const url = `https://jsonplaceholder.typicode.com/users/${random}`
     const config = {
       method: 'GET',
     }
@@ -30,7 +22,7 @@ function App() {
     try {
       const response = await fetch(url, config)
       const data = await response.json()
-      setUser(data)
+      setUser(data) // asigna el valor al estado y genera un nuevo renderizado (pintado)
     } catch (error) {
       console.log(error)
     }
@@ -104,29 +96,61 @@ function App() {
     })
   }
 
+  // El useEffect recibe un callback que se ejecuta cada vez que se renderiza el componente
+  // useEffect(callback)
+
+  // El useEffect se ejecute solo una vez cuando se monta el componente
+  // useEffect(callback, [])
+
+  // El useEffect se ejecute cada vez que se actualice la denpencia count
+  // useEffect(callback, [count])
+
+  useEffect(() => {
+    const fetchAllData = async () => {
+      const url = 'https://jsonplaceholder.typicode.com/users'
+      const config = {
+        method: 'GET',
+      }
+
+      setIsLoading(true)
+      try {
+        const response = await fetch(url, config)
+        const data = await response.json()
+        setUsers(data) // asigna el valor al estado y genera un nuevo renderizado (pintado)
+      } catch (error) {
+        console.log(error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    fetchAllData()
+  }, [])
+
+
   return (
     <div>
       <h1>React Fetch</h1>
 
       <div>
-        <button onClick={handleReadAll}>Leer Todos</button>
         <button onClick={handleReadOne}>Leer Uno</button>
         <button onClick={handleCreate}>Crear</button>
         <button onClick={handleUpdate}>Actualizar</button>
         <button onClick={handleDelete}>Borrar</button>
       </div>
 
-      <form>
-        <input type="text" name="name" onChange={handleChange} defaultValue={user.name}/>
-        <input type="email" name="email" onChange={handleChange} defaultValue={user.email}/>
-        <input type="text" name="username" onChange={handleChange} defaultValue={user.username}/>
-      </form>
+      <Form user={user} />
 
-      <ul>
-        {users.map((user) => (
-          <li key={user.id}>{user.name}</li>
-        ))}
-      </ul>
+      {
+        isLoading
+          ? <Loading />
+          : <ul>
+            {users.map((user) => (
+              <Item key={user.id} user={user} onSelectUser={setUser} />
+            ))}
+          </ul>
+      }
+
     </div>
   )
 }
