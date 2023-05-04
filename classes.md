@@ -19,6 +19,15 @@
 
 ### Sprint 2
 
+- **Introducción a React: JSX** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-24/0SZnb5tIW.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-24/0SZnb5tIW.mp4)
+- **React Props:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-24/k_Q4eAJg3.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-24/k_Q4eAJg3.mp4)
+- **Eventos en React:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-25/4UsfzyF-u.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-25/4UsfzyF-u.mp4)
+- Estado en React: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-25/Q3kp7AL7o.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-25/Q3kp7AL7o.mp4)
+- **Actualizando estados con Objectos y Arreglos en React:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-26/NquZ-Ht1m.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-26/NquZ-Ht1m.mp4)
+- **Formularios y listas con React:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-27/JKeH-vX1K.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-27/JKeH-vX1K.mp4)
+- **Protocolo HTTP (Metodos, Estados, Fetch):** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-27/ozxNwSbMN.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-27/ozxNwSbMN.mp4)
+- **Fetch (Get, Post, Put, Delete):** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-28/i9XpCLGE-.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-04-28/i9XpCLGE-.mp4)
+
 ## Fase Inicial:
 
 ### Sprint 3
