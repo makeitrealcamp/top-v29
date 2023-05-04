@@ -96,48 +96,26 @@ function App() {
     })
   }
 
-  // El useEffect recibe un callback que se ejecuta cada vez que se renderiza el componente
-  // useEffect(callback)
-
-  // El useEffect se ejecute solo una vez cuando se monta el componente
-  // useEffect(callback, [])
-
-  // El useEffect se ejecute cada vez que se actualice la denpencia count
-  // useEffect(callback, [count])
-
   useEffect(() => {
-    const fetchAllData = async () => {
-      const url = 'https://jsonplaceholder.typicode.com/users'
-      const config = {
-        method: 'GET',
-      }
+    const fetchUsers = async () => {
+      const url = 'http://localhost:8080/api/users'
 
-      setIsLoading(true)
       try {
-        const response = await fetch(url, config)
+        const response = await fetch(url)
         const data = await response.json()
-        setUsers(data) // asigna el valor al estado y genera un nuevo renderizado (pintado)
+        setUsers(data)
       } catch (error) {
         console.log(error)
-      } finally {
-        setIsLoading(false)
       }
     }
 
-    fetchAllData()
+    fetchUsers()
   }, [])
 
 
   return (
     <div>
       <h1>React Fetch</h1>
-
-      <div>
-        <button onClick={handleReadOne}>Leer Uno</button>
-        <button onClick={handleCreate}>Crear</button>
-        <button onClick={handleUpdate}>Actualizar</button>
-        <button onClick={handleDelete}>Borrar</button>
-      </div>
 
       <Form user={user} />
 

@@ -37,10 +37,16 @@ function deleteData(id) {
   return record
 }
 
+function getLength() {
+  const records = table.findAll()
+  return records.length
+}
+
 module.exports = {
   getAllData,
   getDataById,
   createData,
   updateData,
   deleteData,
+  getLength,
 }

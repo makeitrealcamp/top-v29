@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 const Form = ({ user }) => {
-  let count = 0
   const [form, setForm] = useState({})
 
   const handleChange = (event) => {
@@ -11,31 +10,62 @@ const Form = ({ user }) => {
       ...form,
       [name]: value,
     })
-
-    count = count + 1
   }
 
-  useEffect(() => {
-    console.log('dentro', count)
+  const handleSubmit = async (event) => {
+    event.preventDefault()
 
-    return () => {
-      console.log('fuera', count)
+    try {
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(form),
+      }
+      const url = 'http://localhost:8080/api/users'
+
+      const response = await fetch(url, options)
+      const data = await response.json()
+      console.log(data)
+    } catch (error) {
+      console.log(error)
     }
-  })
-
-
-
-  // useEffect(() => {
-  //   if (user.username === 'Bret') {
-  //     alert('Hola Bret')
-  //   }
-  // }, [user])
+  }
 
   return(
-    <form>
-      <input type="text" name="name" onChange={handleChange} defaultValue={user.name}/>
-      <input type="email" name="email" onChange={handleChange} defaultValue={user.email}/>
-      <input type="text" name="username" onChange={handleChange} defaultValue={user.username}/>
+    <form onSubmit={handleSubmit}>
+      <div>
+        <input
+          type="text"
+          name="name"
+          placeholder='Name'
+          onChange={handleChange}
+          defaultValue={user.name}
+        />
+      </div>
+      <div>
+        <input
+            type="email"
+            name="email"
+            placeholder='Email'
+            onChange={handleChange}
+            defaultValue={user.email}
+          />
+      </div>
+      <div>
+        <input
+          type="text"
+          name="username"
+          placeholder='Username'
+          onChange={handleChange}
+          defaultValue={user.username}
+        />
+      </div>
+
+      <button type="submit">
+        Submit
+      </button>
     </form>
   )
 }

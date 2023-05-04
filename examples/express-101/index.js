@@ -1,4 +1,6 @@
 const express = require('express');
+const morgan = require('morgan');
+const cors = require('cors');
 
 const {
   handleGetAllData,
@@ -10,8 +12,13 @@ const {
 
 const app = express();
 
+
+app.use(cors())
 // Middleware -> Función que se ejecuta antes de que llegue a la ruta -> Body parser
 app.use(express.json())
+
+//
+app.use(morgan('dev'))
 
 
 // RUTAS

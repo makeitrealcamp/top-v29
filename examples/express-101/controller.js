@@ -6,7 +6,6 @@ const {
   updateData,
 } = require('./model')
 
-
 function handleGetAllData(req, res) {
   console.log('Middleware Controller')
   const records = getAllData()
@@ -43,7 +42,7 @@ function handleCreateData(req, res) {
   const data = req.body
   const record = createData(data)
 
-  return res.json(record)
+  return res.status(201).json(record)
 }
 
 function handleUpdateData(req, res) {
