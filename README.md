@@ -53,16 +53,16 @@ Pueden ocurrir varias actividades en este rango de tiempo
 
 ## Entregables proyecto grupal 💻🤝
 
-- **Sprint 1**: Wireframes y backlog del proyecto e Historias de usuario.
-- **Sprint 2**: Mockups del proyecto y Layout en HTML, CSS.
-- **Sprint 3**: Implementación de los mockups en react.
-- **Sprint 4**: Navegacion de la aplicación con datos MOCK Y Despliegue en netlify.
+- **Sprint 1**: Backlog del proyecto, Historias de usuario, Repositorio (frontend y Backend) Github.
+- **Sprint 2**: Identification de los componentes comunes en su aplicacion y desarrollo de los mismos en react.
+- **Sprint 3**: Navegacion de la aplicación (Paginas) con datos MOCK y despliegue.
+- **Sprint 4**: Pruebas: Frontend.
 - **Sprint 5**: Diseno de base de datos, Modelo de datos y servidor express.
 - **Sprint 6**: Servicios backend conectores a base de datos: REST API.
-- **Sprint 7**: Pruebas: Backend y Frontend.
+- **Sprint 7**: Pruebas: Backend.
 - **Sprint 8**: Envio de email e Integración con pasarela de pagos.
 - **Sprint 9**: CI/CD del backend y el frontend.
-- **Sprint 10**: `DEMO Publico` 🎊🎉💻🎊🎉
+- **Sprint 10**: `DEMO Publico` 🎊🎉💻🎊🎉
 
 ## Requisitos para culminar satisfactoriamente el programa
 
