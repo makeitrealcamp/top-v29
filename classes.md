@@ -32,6 +32,13 @@
 
 ### Sprint 3
 
+- **React UseEffect**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-02/a5p9NFXuh.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-02/a5p9NFXuh.mp4)
+- **React UseEffect 2**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-02/0F6hSs6aM.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-02/0F6hSs6aM.mp4)
+- **Introducción a Express.js:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-03/M6jxaJ2LI.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-03/M6jxaJ2LI.mp4)
+- **Modelo Vista Controlador:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-04/Il1L-zFAu.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-04/Il1L-zFAu.mp4)
+- **Conectar React y Express + CORS** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-04/gS6jT8AuB.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-04/gS6jT8AuB.mp4)
+- **Deploy Backend y Frontend:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-05/h5eymIBtX.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-05/h5eymIBtX.mp4)
+
 ## Fase Principal:
 
 ### Sprint 1
