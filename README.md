@@ -6,7 +6,7 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 2
+- [Juan David Peña](profiles/jd-pena-maker.md)
 - Estudiante 3
 - ...
 - [Ejemplo](profiles/ejemplo-maker.md)
