@@ -12,7 +12,7 @@
 - [Federico Cordoba](profiles/federico-cordoba.md)
 - [Andres Lopez](profiles/andres-maker.md)
 - [Michael Gonzalez](profiles/michael-gonzalez.md)
-- [Ejemplo](profiles/ejemplo-maker.md)
+- [Juan David Peña](profiles/jd-pena-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
 
