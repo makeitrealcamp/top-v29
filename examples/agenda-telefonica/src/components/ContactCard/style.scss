@@ -1,0 +1,28 @@
+.contact-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  padding: 16px;
+
+  &--selected {
+    border: 1px solid red;
+  }
+}
+
+.contact-card__photo {
+  border-radius: 50%;
+  height: 64px;
+  margin-right: 16px;
+  width: 64px;
+}
+
+.contact-card__name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.contact-card__phone {
+  color: #666;
+  margin: 0;
+}
