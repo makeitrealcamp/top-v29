@@ -8,6 +8,9 @@
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 - Estudiante 2
 - Estudiante 3
+- Estudiante 4
+- Estudiante 5
+- [Andres Lopez](profiles/ejemplo-maker.md)
 - ...
 - [Ejemplo](profiles/ejemplo-maker.md)
 
