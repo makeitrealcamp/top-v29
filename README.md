@@ -10,7 +10,7 @@
 - Estudiante 3
 - Estudiante 4
 - Estudiante 5
-- [Andres Lopez](profiles/ejemplo-maker.md)
+- [Andres Lopez](profiles/andres-maker.md)
 - ...
 - [Ejemplo](profiles/ejemplo-maker.md)
 
