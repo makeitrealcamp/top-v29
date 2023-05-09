@@ -8,9 +8,7 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-
-
-- Estudiante 2
+- [David Sarria](profiles/david-sarria.md) 
 - Estudiante 3
 - [Federico Cordoba](profiles/federico-cordoba.md)
 - ...
