@@ -3,6 +3,7 @@
 **Vulnerant omnes ultima necat**
 Soy andres lopez, fanatico de la fantasia y la literatura (desde homero y virgilo a Frank miler y alan moore), la historia, la musca, los juegos de rol, los wargames y algunos deportes (boxeo, jiu jitsu, muay thay, futubo y en tiempos preteritos el rugby), que cuando todo lo anterior le da tiempo se dedica a progragar
 
+
 ## Perfiles sociales
 
 - [Github](https://github.com/maitahlcor)
