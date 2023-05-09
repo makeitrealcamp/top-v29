@@ -6,9 +6,9 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- [Juan Cabello](profiles/juan-cabello.md)
+- Estudiante 2
 - Estudiante 3
-- ...
+- [Juan Cabello](profiles/juan-cabello.md)
 - [Ejemplo](profiles/ejemplo-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
