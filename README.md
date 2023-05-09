@@ -6,7 +6,7 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 2
+- [Juan Cabello](profiles/juan-cabello.md)
 - Estudiante 3
 - ...
 - [Ejemplo](profiles/ejemplo-maker.md)
