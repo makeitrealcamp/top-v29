@@ -6,10 +6,10 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 1
 - Estudiante 2
 - Estudiante 3
 - ...
+- [Ejemplo](profiles/ejemplo-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
 
@@ -74,7 +74,7 @@ Deberás presentar y aprobar las siguienes misiones:
 4. Proyecto Grupal.
 5. Proyecto Individual.
 
-Los lineamientos para los proyectos individuales y grupales son estos: 
+Los lineamientos para los proyectos individuales y grupales son estos:
 
 **El Proyecto Grupal debe tener:**
 
