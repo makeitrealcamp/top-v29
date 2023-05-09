@@ -8,11 +8,11 @@
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 
-- Estudiante 1
 - Estudiante 2
 - Estudiante 3
 - [Federico Cordoba](profiles/federico-cordoba.md)
 - ...
+- [Ejemplo](profiles/ejemplo-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
 
