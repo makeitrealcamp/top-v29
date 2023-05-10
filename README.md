@@ -9,8 +9,8 @@
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 - [David Sarria](profiles/david-sarria.md) 
-- Estudiante 3
 - [Federico Cordoba](profiles/federico-cordoba.md)
+- [Andres Lopez](profiles/andres-maker.md)
 - ...
 - [Ejemplo](profiles/ejemplo-maker.md)
 
