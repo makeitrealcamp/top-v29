@@ -8,11 +8,13 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- [David Sarria](profiles/david-sarria.md) 
+
+- [David Sarria](profiles/david-sarria.md)
 - [Federico Cordoba](profiles/federico-cordoba.md)
 - [Andres Lopez](profiles/andres-maker.md)
 - [Michael Gonzalez](profiles/michael-gonzalez.md)
 - [Juan David Peña](profiles/jd-pena-maker.md)
+- [Alex Herrera](profiles/alex-herrera.md)
 
 ## Como es un dia de estudio durante el programa TOP?
 
