@@ -15,6 +15,8 @@
 - [Michael Gonzalez](profiles/michael-gonzalez.md)
 - [Juan David Peña](profiles/jd-pena-maker.md)
 - [Alex Herrera](profiles/alex-herrera.md)
+- [Juan Cabello](profiles/juan-cabello.md)
+- [Ejemplo](profiles/ejemplo-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
 
