@@ -11,6 +11,6 @@ Hi 👋🏻, mi name is Juan David Peña, I´m actually study Full Stack develop
 
 - Programacion: ⭐️⭐️⭐️
 - Javascript: ⭐️⭐️⭐️
-- CSS: ⭐️⭐️⭐️
-- HTML: ⭐️⭐️⭐️
+- CSS: ⭐️⭐️⭐️⭐️
+- HTML: ⭐️⭐️⭐️⭐️
 - Git: ⭐️⭐️⭐️
