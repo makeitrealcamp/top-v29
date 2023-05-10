@@ -11,7 +11,7 @@
 - [David Sarria](profiles/david-sarria.md) 
 - [Federico Cordoba](profiles/federico-cordoba.md)
 - [Andres Lopez](profiles/andres-maker.md)
-- [Michael](profiles/michael-gonzalez.md)
+- [Michael Gonzalez](profiles/michael-gonzalez.md)
 - [Ejemplo](profiles/ejemplo-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
