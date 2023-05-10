@@ -3,10 +3,12 @@
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
 
 - [Cristian Moreno](profiles/mentor-principal.md)
+- [Juan M Lorza](profiles/mentor-apoyo.md)
 - Mentor 2
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
+
 
 - Estudiante 2
 - Estudiante 3
