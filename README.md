@@ -12,7 +12,7 @@
 - Estudiante 1
 - Estudiante 2
 - Estudiante 3
-- ...
+- [Michael](profiles/michael-gonzalez.md)
 - [Ejemplo](profiles/ejemplo-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
