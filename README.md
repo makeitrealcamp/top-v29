@@ -12,7 +12,7 @@
 - Estudiante 1
 - Estudiante 2
 - Estudiante 3
-- [Miguel Chaparro](profiles/profile-miguel-chaparro)
+- [Miguel Chaparro](profiles/profile-miguel-chaparro.md)
 - [Ejemplo](profiles/ejemplo-maker.md)
 
 ## Como es un dia de estudio durante el programa TOP?
