@@ -1,4 +1,4 @@
-# NOMBRE APELLIDO
+# CRISTIAN MORENO
 
 Cuentanos algo sobre ti que te gustara todos conocieramos: Quien eres? que te gusta hacer? De donde eres?
 
@@ -6,7 +6,7 @@ Cuentanos algo sobre ti que te gustara todos conocieramos: Quien eres? que te gu
 
 - [Github](https://github.com/makeitrealcamp/)
 - [Linkedin](https://www.linkedin.com/company/make-it-real-camp/)
-- [Website](https://gogol.com/)
+- [Website](https://gogole.com/)
 
 ## Experiencia Tecnica
 > En una escala de 1 a 5 como te sientes tecnicamente en esto temas:  ⭐️⭐️⭐️⭐️⭐️
