@@ -10,7 +10,15 @@
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 
 - [Miguel Chaparro](profiles/profile-miguel-chaparro.md)
-
+- [David Sarria](profiles/david-sarria.md)
+- [Federico Cordoba](profiles/federico-cordoba.md)
+- [Andres Lopez](profiles/andres-maker.md)
+- [Michael Gonzalez](profiles/michael-gonzalez.md)
+- [Juan David Peña](profiles/jd-pena-maker.md)
+- [Alex Herrera](profiles/alex-herrera.md)
+- [Juan Cabello](profiles/juan-cabello.md)
+- [Ejemplo](profiles/ejemplo-maker.md)
+- [Miguel Chaparro](profiles/profile-miguel-chaparro.md)
 
 ## Como es un dia de estudio durante el programa TOP?
 
