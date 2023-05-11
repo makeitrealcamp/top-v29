@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import './style.css'
 
 const Album = (props) => {
@@ -20,6 +22,33 @@ const Album = (props) => {
       </div>
     </div>
   )
+}
+
+Album.propTypes = {
+  /**
+   * Artist name
+   */
+  artist: PropTypes.string.isRequired,
+  /**
+   * Song name
+   */
+  song: PropTypes.string.isRequired,
+  /**
+   * Year of release
+   */
+  year: PropTypes.string,
+  /**
+   * Genre
+   */
+  genre: PropTypes.string.isRequired,
+  /**
+   * Cover image URL
+   */
+  cover: PropTypes.string.isRequired,
+}
+
+Album.defaultProps = {
+  year: 'Unknown',
 }
 
 export default Album

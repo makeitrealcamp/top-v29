@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import './style.css'
 
 // las props son un objeto que contiene
@@ -24,6 +26,11 @@ function Profile(props) {
       />
     </div>
   )
+}
+
+Profile.propTypes = {
+  fullName: PropTypes.string.isRequired,
+  age: PropTypes.number.isRequired,
 }
 
 export default Profile
