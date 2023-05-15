@@ -42,3 +42,12 @@
 ## Fase Principal:
 
 ### Sprint 1
+
+- **Introducción a Scrum**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-08/CivhngPoN.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-08/CivhngPoN.mp4)
+- **Scrum pt2:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-08/-37QKJMhQ.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-08/-37QKJMhQ.mp4)
+- **Flujos de Trabajo con Git**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-09/FL0xuBj3A.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-09/FL0xuBj3A.mp4)
+- **Fork Repository**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-09/2_WtRGDYj.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-09/2_WtRGDYj.mp4)
+- **Rebase vs Merge:** [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-10/pBf38L-qo.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-10/pBf38L-qo.mp4)
+- **Tipos de Props en Reac**t: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-10/bwhVcPIxf.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-10/bwhVcPIxf.mp4)
+- **React Router Dom**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-11/jK20FW8JQ.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-11/jK20FW8JQ.mp4)
+- **React Router Dom 6.4**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-12/RQ-r6m-Ea.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-12/RQ-r6m-Ea.mp4)
