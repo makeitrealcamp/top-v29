@@ -1,6 +1,7 @@
 import ParallelExample from './components/parallel'
 import { GetAxiosExample, PostAxiosExample } from './components/axios'
 import { GetSWRExample, PostSWRExample } from './components/swr'
+import RickMorty from './components/parallel/RickAndMorty'
 
 function App() {
 
@@ -19,7 +20,9 @@ function App() {
       {/* <GetSWRExample /> */}
 
       {/* Post SWR example  */}
-      <PostSWRExample />
+      {/* <PostSWRExample /> */}
+
+      <RickMorty />
     </>
   )
 }
