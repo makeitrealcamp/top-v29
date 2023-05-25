@@ -76,3 +76,5 @@ function createRobot([ _x, _y], direction) {
 
 module.exports = createRobot
 
+// const myRobot = createRobot([2, 8], 'South')
+// myRobot.instructions('RAAALAL')
