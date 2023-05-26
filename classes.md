@@ -51,3 +51,22 @@
 - **Tipos de Props en Reac**t: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-10/bwhVcPIxf.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-10/bwhVcPIxf.mp4)
 - **React Router Dom**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-11/jK20FW8JQ.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-11/jK20FW8JQ.mp4)
 - **React Router Dom 6.4**: [https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-12/RQ-r6m-Ea.mp4](https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-12/RQ-r6m-Ea.mp4)
+
+### Sprint 2
+
+- **Configurando proyecto react como un Pro:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-15/BcVYfifNq.mp4
+- **Conventional commits Lint y Configuration Repositorio:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-16/iZbAmL_2i.mp4
+- **React Hooks -  Custom Hooks:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-16/EoXZluYuO.mp4
+- **Peticiones Paralelas y Alternativas a fetch:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-17/CZQMLp3it.mp4
+- **Ejercicio Peticiones en paralelo:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-17/vGO-3gWf-.mp4
+- **Solucion Peticiones en Paralelo:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-18/U9tFFGcPL.mp4
+- **Browser APIs**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-18/GDhQlTTRx.mp4
+- **React useReduce**r: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-19/QpeRyfQie.mp4
+
+### Sprint 3
+
+- **Fundamentos de testing**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-23/kXl4BF86o.mp4
+- **Ejercicios de testing:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-23/RPxe1dcvN.mp4
+- **Ejercicio robot-simulator:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-24/iGxM-vIOw.mp4
+- **Testing library Fundamentos:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-25/rZzxEUrkp.mp4
+- **Testing library Pt2**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-25/FqIbMi5tF.mp4
