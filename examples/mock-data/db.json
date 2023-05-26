@@ -1,0 +1,37 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel 1",
+      "description": "Description 1",
+      "image": "https://via.placeholder.com/150",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Hotel 2",
+      "description": "Description 2",
+      "image": "https://via.placeholder.com/150",
+      "price": 150
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User 1",
+      "email": "k@lo.com"
+    },
+    {
+      "id": 2,
+      "name": "User 2",
+      "email": "k@lo.com"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "hotelId": 1
+    }
+  ]
+}

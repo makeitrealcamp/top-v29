@@ -21,7 +21,7 @@ function App() {
         El reducer ya está escrito, así que no necesitas cambiarlo.
         Solo tendrás que despachar las acciones en `ContactList.jsx` y `Chat.jsx`.
       */}
-      <Exercise01 />
+      {/* <Exercise01 /> */}
 
       {/*
         Desafío 2 de 3: Limpiar el input al enviar un mensaje
@@ -57,7 +57,7 @@ function App() {
         borrador de mensaje separado por contacto. Tendrás que hacer algunos cambios al reducer,
         al estado inicial y a los componentes.
       */}
-      {/* <Exercise03 /> */}
+      <Exercise03 />
     </>
   )
 }
