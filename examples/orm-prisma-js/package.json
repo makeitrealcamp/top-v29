@@ -1,0 +1,21 @@
+{
+  "name": "orm-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.15.0"
+  }
+}
