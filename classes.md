@@ -70,3 +70,17 @@
 - **Ejercicio robot-simulator:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-24/iGxM-vIOw.mp4
 - **Testing library Fundamentos:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-25/rZzxEUrkp.mp4
 - **Testing library Pt2**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-25/FqIbMi5tF.mp4
+- **Mock Server Api (JSON Serve):** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-26/uVB2qoXMG.mp4
+- **React Context:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-26/XP-8qqnr2.mp4
+- **React Context pt2**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-29/a0QDyJUMg.mp4
+- **PRE DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-29/nn-pw38_7.mp4
+
+### Sprint 4
+
+- **Introducción a Bases de Datos:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-30/0yrYBbhyx.mp4
+- **Normalizacion de datos:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-30/O6AlrdoL_.mp4
+- **Config Vitest - Ejercicio de Modelo ER:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-31/QltvnBJV4.mp4
+- **Servidor Postgres:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-05-31/Qj05njdiL.mp4
+- **SQL**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-01/SKFVeJf2T.mp4
+- **ORM Prisma:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-02/mooZEwkLi.mp4
+- **Prisma ejercicio**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-02/lGLVUR0Et.mp4
