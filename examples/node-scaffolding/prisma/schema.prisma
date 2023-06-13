@@ -49,3 +49,13 @@ model Review {
   // Este es el campo que se ve en la base de datos y va tener la relación con el modelo User
   userId String
 }
+
+model Job {
+  id               String   @id @default(cuid())
+  title            String
+  salary           Int
+  responsibilities String[]
+  qualifications   String[]
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
