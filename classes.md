@@ -84,3 +84,16 @@
 - **SQL**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-01/SKFVeJf2T.mp4
 - **ORM Prisma:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-02/mooZEwkLi.mp4
 - **Prisma ejercicio**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-02/lGLVUR0Et.mp4
+- **DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-05/5YRKL5hvZ.mp4
+
+### Sprint 5
+
+- **Intro a Typescript**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-05/wRqvbNDLM.mp4
+- **Express Scaffolding:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-06/fWzc5yYfh.mp4
+- **Creando un modulo User en nuestro proyecto de express**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-06/KpczRjd1R.mp4
+- **Enunciado ejercicio Scaffolding:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-07/vL-gvqYlf.mp4
+- **Hashing de contraseñas en Node.js con bcrypt:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-07/NVcZ4FNpw.mp4
+- **JWT JSON Web Token:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-08/8V4uf78Ca.mp4
+- **middleware `isAuthenticad`:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-08/D4hK8DJN3.mp4
+- **Autorizacion de request por roles:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-09/1xMwQucoR.mp4
+- **Despliegue de Backend**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-09/4NDQxr9cY.mp4
