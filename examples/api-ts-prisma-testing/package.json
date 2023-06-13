@@ -1,0 +1,43 @@
+{
+  "name": "scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "test": "NODE_ENV=test  jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.2",
+    "@types/morgan": "^1.9.4",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.5.0",
+    "prisma": "^4.15.0",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "volta": {
+    "node": "18.15.0",
+    "npm": "9.5.1"
+  }
+}

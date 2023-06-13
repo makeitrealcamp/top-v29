@@ -1,0 +1,61 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id     String  @id @default(cuid())
+  email  String  @unique
+  name   String
+  avatar String?
+
+  // Estos son campos que utiliza Prisma para relacionar los modelos
+  posts   Post[]
+  reviews Review[]
+}
+
+model Post {
+  id        String  @id @default(cuid())
+  title     String
+  content   String
+  published Boolean @default(false)
+  // Este es un campo virtual que solo existe en el lado de Prisma
+  author    User    @relation(fields: [authorId], references: [id])
+  // Este es el campo que se ve en la base de datos y va tener la relación con el modelo User
+  authorId  String
+
+  // Estos son campos que utiliza Prisma para relacionar los modelos
+  reviews Review[]
+}
+
+model Review {
+  id      String @id @default(cuid())
+  title   String
+  comment String
+  // Este es un campo virtual que solo existe en el lado de Prisma
+  post    Post   @relation(fields: [postId], references: [id])
+  // Este es el campo que se ve en la base de datos y va tener la relación con el modelo Post
+  postId  String
+
+  // Estos son campos que utiliza Prisma para relacionar los modelos
+  user   User   @relation(fields: [userId], references: [id])
+  // Este es el campo que se ve en la base de datos y va tener la relación con el modelo User
+  userId String
+}
+
+model Job {
+  id               String   @id @default(cuid())
+  title            String
+  salary           Int
+  responsibilities String[]
+  qualifications   String[]
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
