@@ -1,6 +1,6 @@
 import Badge from './Badge';
 
-const Navbar = ({ cart = [] }) => {
+const Navbar = () => {
   return (
     <nav>
       <div className="container">
@@ -17,7 +17,7 @@ const Navbar = ({ cart = [] }) => {
           <li>
             <a href="/" id="cart">
               <i className="fa fa-shopping-cart"></i> Cart
-              <Badge length={cart.length} />
+              <Badge />
             </a>
           </li>
         </ul>

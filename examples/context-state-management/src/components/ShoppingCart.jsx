@@ -2,17 +2,19 @@ import Badge from './Badge';
 import Total from './Total';
 import CartList from './CartList';
 import CheckoutButton from './CheckoutButton';
+import { useAppState } from '../store';
 
-const ShoppingCart = ({ cart = [] }) => {
+const ShoppingCart = () => {
+  const { state } = useAppState();
   return (
     <div className="shopping-cart">
       <div className="shopping-cart-header">
         <i className="fa fa-shopping-cart cart-icon"></i>
-        <Badge length={cart.length} />
+        <Badge />
         <Total />
       </div>
 
-      <CartList cart={cart} />
+      <CartList cart={state.cart} />
 
       <CheckoutButton />
     </div>
