@@ -1,23 +1,25 @@
-import { useTheme } from './components/Theme/ThemeContext'
+// import { useTheme } from './components/Theme/ThemeContext';
 
-import Form from './components/common/Forms'
+// import Form from './components/common/Forms';
+import CounterAdv from './components/CounterAdv/Counter';
 
-import './App.css'
+import './App.css';
 
 function App() {
-  const { theme, setTheme } = useTheme()
+  // const { theme, setTheme } = useTheme();
 
-  const toggleTheme = () => {
-    // if es light -> dark
-    // if es dark -> light
+  // const toggleTheme = () => {
+  //   // if es light -> dark
+  //   // if es dark -> light
 
-    setTheme(theme === 'light' ? 'dark' : 'light')
-  }
+  //   setTheme(theme === 'light' ? 'dark' : 'light');
+  // };
 
   return (
     <>
       <h1>React Context App</h1>
-      <div>
+      <CounterAdv />
+      {/* <div>
         <Form />
         <label>
           <input
@@ -27,9 +29,9 @@ function App() {
           />
           Usar modo { theme === 'dark' ? 'light' : 'dark'}
         </label>
-      </div>
+      </div> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
