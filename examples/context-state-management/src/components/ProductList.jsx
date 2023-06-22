@@ -2,17 +2,19 @@ import { useEffect, useState } from 'react';
 
 import ProductItem from './ProductItem';
 import { getProducts } from '../service/products';
-import { useAppState } from '../store';
+import { useSelector, useDispatch } from '../store';
+import { setLoading } from '../store/actions';
 
 const ProductList = () => {
-  const { state, dispatch } = useAppState();
+  const dispatch = useDispatch();
+  const state = useSelector();
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     //  VAMOS A SOLICITAR LOS PRODUCTOS
     const fetchProducts = async () => {
       try {
-        dispatch({ type: 'SET_LOADING', payload: true });
+        dispatch(setLoading(true));
         const products = await getProducts();
 
         setProducts(products);
@@ -21,7 +23,7 @@ const ProductList = () => {
         console.log(error);
       } finally {
         // disparar la accion del loading = false
-        dispatch({ type: 'SET_LOADING', payload: false });
+        dispatch(setLoading(false));
       }
     };
 

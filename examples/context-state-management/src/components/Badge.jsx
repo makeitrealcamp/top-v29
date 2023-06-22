@@ -1,8 +1,8 @@
-import { useAppState } from '../store';
+import { useSelector } from '../store';
 
 const Badge = () => {
-  const { state } = useAppState();
-  const amountItems = state.cart.length;
+  const { cart } = useSelector();
+  const amountItems = cart.length;
 
   return <span className="badge">{amountItems}</span>;
 };

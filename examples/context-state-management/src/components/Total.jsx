@@ -1,12 +1,12 @@
-import { useAppState } from '../store';
+import { useSelector } from '../store';
 
 const Total = () => {
-  const { state } = useAppState();
+  const { total } = useSelector();
   return (
     <div className="shopping-cart-total">
       <span className="lighter-text">Total:</span>
       <span className="main-color-text">
-        ${Intl.NumberFormat('en-US').format(state.total)}
+        ${Intl.NumberFormat('en-US').format(total)}
       </span>
     </div>
   );

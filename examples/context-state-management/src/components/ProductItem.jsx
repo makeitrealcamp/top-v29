@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
 
-import { useAppState } from '../store';
+import { useDispatch } from '../store';
+import { addProductToCart } from '../store/actions';
 
 const ProductItem = ({ product }) => {
   const { name, price, img } = product;
-  const { dispatch } = useAppState();
+  const dispatch = useDispatch();
 
   const addToCart = () => {
-    dispatch({ type: 'ADD_TO_CART', payload: product });
+    dispatch(addProductToCart(product));
   };
 
   return (

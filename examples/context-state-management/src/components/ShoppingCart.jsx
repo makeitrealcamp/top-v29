@@ -2,10 +2,11 @@ import Badge from './Badge';
 import Total from './Total';
 import CartList from './CartList';
 import CheckoutButton from './CheckoutButton';
-import { useAppState } from '../store';
+import { useSelector } from '../store';
 
 const ShoppingCart = () => {
-  const { state } = useAppState();
+  const { cart } = useSelector();
+
   return (
     <div className="shopping-cart">
       <div className="shopping-cart-header">
@@ -14,7 +15,7 @@ const ShoppingCart = () => {
         <Total />
       </div>
 
-      <CartList cart={state.cart} />
+      <CartList cart={cart} />
 
       <CheckoutButton />
     </div>

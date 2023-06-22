@@ -1,7 +1,8 @@
 import { createContext, useReducer, useContext } from 'react';
 
+import reducer from './reducer';
+
 const AppStateContext = createContext();
-const AppDispatchContext = createContext();
 
 const initialState = {
   products: [],
@@ -9,28 +10,6 @@ const initialState = {
   total: 0,
   isLoading: false,
 };
-
-function reducer(state, action) {
-  switch (action.type) {
-    case 'SET_LOADING': {
-      return { ...state, isLoading: action.payload };
-    }
-    case 'SET_PRODUCTS': {
-      return { ...state, products: action.payload };
-    }
-    case 'ADD_TO_CART': {
-      const newProduct = action.payload;
-      const newCart = [...state.cart, newProduct];
-      const total = newCart.reduce((acc, curr) => acc + curr.price, 0);
-
-      return { ...state, cart: newCart, total };
-    }
-
-    default: {
-      throw new Error(`Unhandled action type: ${action.type}`);
-    }
-  }
-}
 
 export const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
@@ -44,12 +23,23 @@ export const AppProvider = ({ children }) => {
   );
 };
 
-export const useAppState = () => {
+// Le ponemos este nombre para que sea mas facil de entender -> Redux
+export const useSelector = () => {
   const context = useContext(AppStateContext);
 
   if (context === undefined) {
-    throw new Error('useAppState must be used within a AppProvider');
+    throw new Error('useSelector must be used within a AppProvider');
   }
 
-  return context;
+  return context.state;
+};
+
+export const useDispatch = () => {
+  const context = useContext(AppStateContext);
+
+  if (context === undefined) {
+    throw new Error('useDispatch must be used within a AppProvider');
+  }
+
+  return context.dispatch;
 };
