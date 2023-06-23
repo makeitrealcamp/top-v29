@@ -97,3 +97,21 @@
 - **middleware `isAuthenticad`:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-08/D4hK8DJN3.mp4
 - **Autorizacion de request por roles:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-09/1xMwQucoR.mp4
 - **Despliegue de Backend**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-09/4NDQxr9cY.mp4
+
+### Sprint 6
+
+- **Sembrando la base de datos:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-13/eeftO5UcP.mp4
+- **Testing en Nodejs con SuperTest:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-13/SswOyHuKm.mp4
+- **Testing con Typescript:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-14/9U3wU2IQi.mp4
+- **Upload image (express, multer, cloudinary):** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-14/DxHDCdlzw.mp4
+- **Enviar una imagen al servidor:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-15/dUaBD2CHg.mp4
+- **Envio de correo con NodeMailer:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-15/n2T-jrIYu.mp4
+- **Activar cuenta de usuario:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-16/1MTY_m5Ek.mp4
+- **Payments**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-20/MbX5I6GXA.mp4
+- **DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-20/DcyLIBMsi.mp4
+
+### Sprint 7
+
+- **State Management**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-21/fa8MFX0NJ.mp4
+- **Cart - Context Management:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-21/BYfUj_Rqy.mp4
+- **Context como un Fake Redux:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-22/3YcOo8Yyp.mp4
