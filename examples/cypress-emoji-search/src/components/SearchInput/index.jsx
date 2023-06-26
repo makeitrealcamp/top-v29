@@ -8,7 +8,7 @@ const SearchInput = ({ textChange }) => {
   return (
     <div className="component-search-input">
       <div>
-        <input onChange={handleChange} />
+        <input onChange={handleChange} data-cy="emoji-search-input" />
       </div>
     </div>
   );
