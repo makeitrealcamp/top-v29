@@ -115,3 +115,6 @@
 - **State Management**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-21/fa8MFX0NJ.mp4
 - **Cart - Context Management:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-21/BYfUj_Rqy.mp4
 - **Context como un Fake Redux:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-22/3YcOo8Yyp.mp4
+- **Context - Voting System**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-23/l_t_bSGar.mp4
+- **Test e2e con Cypress.js**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-26/L8VxcEM2I.mp4
+- **DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-26/3BlfjemX1.mp4
