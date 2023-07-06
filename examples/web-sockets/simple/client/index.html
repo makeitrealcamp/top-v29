@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebSockets</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+  <style>
+    #map { height: 380px; margin: 20px 0; }
+    .alert {
+      padding: 20px;
+      background-color: #f44336;
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    .alert-error {
+      background-color: #f44336;
+    }
+
+    .alert-info {
+      background-color: #2196F3;
+    }
+
+    .alert-warning {
+      background-color: #ff9800;
+    }
+
+    .alert-success {
+      background-color: #4CAF50;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Web Socket simple</h1>
+  <br>
+  <button id="btn">Send Message</button>
+  <div id="alerts">
+    <!-- todo el codigo de respuesta de las alertas -->
+  </div>
+
+  <script>
+    const $btn = document.querySelector('#btn');
+    const $alerts = document.querySelector('#alerts');
+
+    const socket = new WebSocket('ws://localhost:8080');
+
+    function createAlert(alert) {
+      const { type, message, time } = alert
+
+      const $alert = document.createElement('div');
+      $alert.classList.add('alert');
+      $alert.classList.add(`alert-${type.toLowerCase()}`);
+      $alert.innerHTML = `
+        <strong>${type}</strong> ${message} <small>${time}</small>
+      `;
+
+      $alerts.appendChild($alert);
+    }
+
+    socket.addEventListener('open', (event) => {
+      console.log('Connected to WS Server');
+    });
+
+    socket.addEventListener('message', (event) => {
+      const alert = JSON.parse(event.data);
+      createAlert(alert);
+    })
+
+    $btn.addEventListener('click', () => {
+      const message = prompt('Ingrese un mensaje');
+      socket.send(message);
+    });
+
+
+  </script>
+
+
+</body>
+</html>

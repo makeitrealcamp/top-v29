@@ -1,0 +1,19 @@
+{
+  "name": "simple-web-sockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && node --watch index.js ",
+    "client": "npx serve client"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.2",
+    "express-ws": "5.0.2",
+    "serve": "13.0.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}

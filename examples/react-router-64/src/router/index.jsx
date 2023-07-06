@@ -39,5 +39,6 @@ const router = createBrowserRouter([
     ],
   },
 ])
+console.log("🚀 ~ file: index.jsx:42 ~ router:", router)
 
 export default router
