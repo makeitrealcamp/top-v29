@@ -118,3 +118,37 @@
 - **Context - Voting System**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-23/l_t_bSGar.mp4
 - **Test e2e con Cypress.js**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-26/L8VxcEM2I.mp4
 - **DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-26/3BlfjemX1.mp4
+
+### Sprint 8
+
+- **Redux Toolkit Init**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-28/rJOt58h-l.mp4
+- **RTK en el Carrito de compras:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-28/n1nY8CtAr.mp4
+- **CI & CD:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-29/wUy282zzj.mp4
+- **Github Actions para CI:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-29/Qmq3vJtFq.mp4
+- **oauth y auth0**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-30/d6Y0bd-ji.mp4
+- **TS en react:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-06-30/bFBc-Ax7E.mp4
+- **DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-04/cW5OdU9-1.mp4
+
+### Sprint 9
+
+- **Docker**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-04/9dA_EXR3e.mp4
+- **Docker Base de datos**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-05/cMMZtN7UE.mp4
+- **Web Sockets**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-06/gnlwHz2_-.mp4
+- **React Chat - Socket.io:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-06/5js4PkqXt.mp4
+- **Caching con Redis**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-07/yuCIyfupT.mp4
+
+### Sprint 10
+
+- **Introduccion a React Native**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-10/dsB4TShW3.mp4
+- **Core components**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-11/7EUTqzR6S.mp4
+- **React Navigation:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-12/hfYQgCXBA.mp4
+- **Sensores - imágenes, cámara, mapa, location:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-13/TuSZZYu9U.mp4
+- **PRE-DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-14/pIzTvm7Cm.mp4
+
+## Fase Fianl:
+
+### Sprint 1
+
+- **Intro a MongoDB:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-17/Rhpbdcx0Q.mp4
+- **Mongoose**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-17/aD-kXBMkh.mp4
+- **Next.js**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-18/rpTZVZSuD.mp4
