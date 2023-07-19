@@ -2,21 +2,7 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const ProductsPage = (props) => {
-  const [products, setProducts] = useState([])
-
-  useEffect(() => {
-    const getProducts = async () => {
-      const url = 'https://fakestoreapi.com/products'
-      const response = await fetch(url)
-      const data = await response.json()
-      console.log("🚀 ~ file: index.jsx:11 ~ getProducts ~ data:", data)
-      setProducts(data)
-    }
-
-    getProducts()
-  }, [])
-
+const ProductsPage = ({ products = [] }) => {
 
   return(
     <div>
@@ -43,3 +29,27 @@ const ProductsPage = (props) => {
 }
 
 export default ProductsPage
+
+// export async function getServerSideProps() {
+//   const url = 'http://localhost:3000/api/products'
+//   const response = await fetch(url)
+//   const data = await response.json()
+
+//   return {
+//     props: {
+//       products: data
+//     }
+//   }
+// }
+
+export async function getStaticProps() {
+  const url = 'https://fakestoreapi.com/products'
+  const response = await fetch(url)
+  const data = await response.json()
+
+  return {
+    props: {
+      products: data
+    }
+  }
+}
