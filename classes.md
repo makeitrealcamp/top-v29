@@ -152,3 +152,14 @@
 - **Intro a MongoDB:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-17/Rhpbdcx0Q.mp4
 - **Mongoose**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-17/aD-kXBMkh.mp4
 - **Next.js**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-18/rpTZVZSuD.mp4
+- **Next.js** ****Rendering****: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-18/0NR7iY-v2.mp4
+- **Firebase**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-19/MsLOplgoU.mp4
+- **Strapi**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-19/naYAMz14S.mp4
+- **Serverless para frontends:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-21/ayT2NsCpF.mp4
+
+### Sprint 2
+
+- **GraphQL - Query**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-24/SiiC6jq0o.mp4
+- **GraphQL - Mutations:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-25/3yCi6PcgT.mp4
+- **Apollo GraphQL: Server - Client:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-26/GzumiydIv.mp4
+- **Headless CMS**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-27/VyPZR_5l8.mp4
