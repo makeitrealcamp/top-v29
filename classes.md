@@ -145,7 +145,7 @@
 - **Sensores - imágenes, cámara, mapa, location:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-13/TuSZZYu9U.mp4
 - **PRE-DEMO**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-14/pIzTvm7Cm.mp4
 
-## Fase Fianl:
+## Fase Final:
 
 ### Sprint 1
 
@@ -163,3 +163,4 @@
 - **GraphQL - Mutations:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-25/3yCi6PcgT.mp4
 - **Apollo GraphQL: Server - Client:** https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-26/GzumiydIv.mp4
 - **Headless CMS**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-27/VyPZR_5l8.mp4
+- **Intro a Gatsby**: https://makeitreal.s3.amazonaws.com/videos/85869635202/2023-07-28/tq7AL5QS5.mp4
